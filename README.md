@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @c0lethecoder
 - 👀 I’m interested in Basketball, videogames, and friends
-- 🌱 I’m currently learning Python, and Java
+- 🌱 I’m currently learning Python, Java, and C++
 - 💞️ I’m looking to collaborate on anything, really I need to learn
 - 📫 How to reach me is through my email "coleharris342@gmail.com"
 
