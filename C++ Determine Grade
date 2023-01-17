@@ -12,25 +12,31 @@
 
 using namespace std;
 
- void printVowel (){
-        cout<<"Letter is a vowel."<<endl;
-    }
-
- void printNotVowel (){
-        cout<<"Letter is not a vowel."<<endl;
-    }
 int main(){
-    
-    char letter ;
-    
-    cin>>letter;
+   
+    int c;
 
+    cin >> c;
 
-    if (letter=='a' ||letter=='e' ||letter=='i' ||letter=='o' ||letter=='u'){
-        cout<<"Letter is a vowel.";
-    } else if (letter=='A' ||letter=='E' ||letter=='I' ||letter=='O' ||letter=='U') {
-      cout<<"Letter is a vowel.";
-    } else {
-      cout<<"Letter is not a vowel.";
+    if (c<=100&&c>=90){
+        cout << "A";
     }
+    else if (c<=89&&c>=80){
+        cout << "B";
+    }
+    else if (c<=79&&c>=70){
+        cout << "C";
+    }
+    else if (c<=69&&c>=60){
+        cout << "D";
+    }
+    else if (c<=59&&c>=0){
+        cout << "F";
+    }
+    else{
+        cout << "Invalid Mark.";
+    }
+
+
+    return 0;
 }
